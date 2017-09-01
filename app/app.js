@@ -3,9 +3,13 @@
 angular.module('myApp', ['ngRoute'])
 .config(function ($routeProvider) {
     $routeProvider
-        .when('/_books', {
-            templateUrl: 'partials/partial.html',
-            controller: 'BookController'
+        .when('/bookCtrl', {
+            templateUrl: 'partials/guide-list.html',
+            controller: 'bookCtrl'
         })
-        .otherwise('/');
+        .when('/home', {
+            templateUrl: 'partials/home.html',
+            controller: 'bookCtrl'
+        })
+        .otherwise('/home');
 });

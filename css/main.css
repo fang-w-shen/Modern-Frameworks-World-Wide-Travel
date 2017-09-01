@@ -1,7 +1,15 @@
-a:link {
-  color: blue;
+a {
+  color: black;
   text-decoration: none; }
-a:hover {
-  color: red; }
+  a:hover {
+    color: white; }
+
+button {
+  background: #10ce6f; }
+
+.jumbotron {
+  text-align: center;
+  background-color: #06594f;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
